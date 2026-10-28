@@ -1,0 +1,17 @@
+{
+  "id": "market-newsletter",
+  "name": "Market Newsletter",
+  "intent": ["newsletter", "market brief", "market update", "weekly markets", "crypto brief", "stocks brief"],
+  "default_profile": { "primary": "quality", "secondary": ["time-to-market"] },
+  "composition": {
+    "roles": [
+      { "role": "researcher", "count": 1 },
+      { "role": "writer", "count": 1 },
+      { "role": "reviewer", "count": 1 }
+    ]
+  },
+  "workflow": "read the brief, gather the period's market facts, draft the sections, check every number against its source, edit for tone and length, ship",
+  "skills": ["market-summary", "claim-extraction", "copywriting", "source-credibility"],
+  "tools": ["web-search", "markdown-editor", "readability-scorer"],
+  "cost_per_run": { "cloud_usd": null, "sovereign_usd": 0, "measured_on": null, "runs": 0 }
+}

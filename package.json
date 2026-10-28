@@ -1,0 +1,15 @@
+{
+  "name": "kognai-market-newsletter",
+  "version": "0.1.0",
+  "description": "A market newsletter product template on the Kognai engine (@kognai/build)",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": { ".": "./src/index.js" },
+  "scripts": { "test": "node --test test/*.test.js" },
+  "author": "Astra Trading Co",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/astra-tc/kognai-market-newsletter" },
+  "engines": { "node": ">=20" },
+  "peerDependencies": { "@kognai/build": ">=0.7.0" },
+  "peerDependenciesMeta": { "@kognai/build": { "optional": true } }
+}
